@@ -7,7 +7,7 @@ public class butterfly_pattern {
                 System.out.print("*");
             }
             for(int j = 1; j<=(m-i)*2; j++){
-                System.out.print(".");
+                System.out.print(" ");
             }
             for(int j = 1; j<=i; j++){
                 System.out.print("*");
@@ -22,7 +22,7 @@ public class butterfly_pattern {
                 System.out.print("*");
             }
             for(int j = 1; j<=(m-i)*2; j++){
-                System.out.print(".");
+                System.out.print(" ");
             }
             for(int j = 1; j<=i; j++){
                 System.out.print("*");
