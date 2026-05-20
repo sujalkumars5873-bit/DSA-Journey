@@ -16,15 +16,15 @@ public class largest_element_in_array {
             arr[i] = sc.nextInt();
         }
 
-        int max = arr[0];//letting largest value be in index no.1
+        int largest = arr[0];//letting largest value be in index no.1
 
         //output
         for(int i = 0; i<index; i++){
-           if(arr[i]>max){
-            max = arr[i];
+           if(arr[i]>largest){
+            largest = arr[i];
            }
         }
-        System.out.println("largest value is : " + max);
+        System.out.println("largest value is : " + largest);
     }
     
 }
