@@ -2,15 +2,15 @@ public class remove_duplicate_from_arr {
 
 
     public static int removeduplicate(int arr[]){
-        int j = 0;
+        int i = 0;
 
-        for (int i = 1; i< arr.length; i++){
+        for (int j = 1; j< arr.length; j++){
             if(arr[j] != arr[i]){
-                arr[j+1] = arr[i];
-                j++;
+                arr[i+1] = arr[j];
+                i++;
             }
         }
-        return j+1;
+        return i+1;
 
     }
     public static void main(String[] args) {
@@ -25,6 +25,3 @@ public class remove_duplicate_from_arr {
 
     }
 }
-
-
-
