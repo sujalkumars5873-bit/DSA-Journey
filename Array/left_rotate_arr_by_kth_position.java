@@ -11,7 +11,7 @@ public class left_rotate_arr_by_kth_position {
             temp[i] = nums[i];
         }
 
-         for(int i = d; i<nums.length; i++){         //shifting elements to right  or rotating left
+         for(int i = d; i<nums.length; i++){         //shifting elements to left  
             nums[i-d] = nums[i];
          }
 
