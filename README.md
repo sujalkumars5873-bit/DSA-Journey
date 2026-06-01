@@ -52,10 +52,14 @@
       <tr>
       <tr>
             <td>Strings</td>
-            <td class="progress">🔄 In Progress</td>
+            <td class="completed">✅ Completed</td>
         </tr>
         <tr>
             <td>Recursion</td>
+            <td class="progress">🔄 In Progress</td>
+        </tr>
+     <tr>
+            <td>Sorting</td>
             <td class="progress">🔄 In Progress</td>
         </tr>
     </table>
