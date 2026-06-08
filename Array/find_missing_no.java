@@ -5,7 +5,7 @@ public class find_missing_no {
         
         int n = 5;
         int a = arr.length;
-                                                     //from linear search
+                                                     //from linear search  (takes more time in worst condition)
         
         // for(int i = 1; i<n; i++){
         //     int flag = 0;
