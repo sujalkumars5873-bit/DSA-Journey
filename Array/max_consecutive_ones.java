@@ -11,7 +11,7 @@ public class max_consecutive_ones {
         for(int i = 0; i<n; i++){
             if(arr[i] == 1){
                 cnt++;
-                max = Math.max(max,cnt);
+                max = Math.max(max,cnt);     //"math.max" will take the maximum no. which will come in the "max" variable.
             }
             else{
                 cnt = 0; 
