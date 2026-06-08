@@ -28,7 +28,7 @@ public class find_missing_no {
         int missingNo;
 
         for(int i = 0; i<a; i++){
-            sum2 = sum2 + arr[i];
+            sum2 = sum2 + arr[i];    //for example if i ==> 0, then sum2 willl be (0 + 1) where 1 is the arr[i].
         }
 
         missingNo = sum1 - sum2;
