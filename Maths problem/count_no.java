@@ -4,7 +4,7 @@ public class count_no {
         int count = 0;
         System.out.println("number: " + num);
         while(num>0)
-            int lastdigit = num % 10;        ///it is the last digit of the num given //
+            int lastdigit = num % 10;        ///it is the last digit of the num given // for ex:- 2234 % 10 == 4 (which is the reminder)..
             count = count+1;
             num = num / 10;
         }
