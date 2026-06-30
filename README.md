@@ -65,7 +65,7 @@
     </table>
     <h2>📬 Connect With Me</h2>
     <p>GitHub: sujalkumars5873-bit</p>
-        
+    <p>Email: sujalkumar0910@gmail.com</p>  
       
          
        
