@@ -3,7 +3,7 @@ public class count_no {
         int num = 778989;
         int count = 0;
         System.out.println("number: " + num);
-        for(int i = 0; i<num; i++){
+        while(num>0){
             count = count+1;
             num = num / 10;
         }
