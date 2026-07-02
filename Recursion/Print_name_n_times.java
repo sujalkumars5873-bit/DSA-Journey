@@ -11,6 +11,6 @@ public class Print_name_n_times {
     }
     public static void main(String[] args) {
         int n = 4;
-        printname(1, n);
+        printname(1, n);  //here the 1 is the starting value of i which is used in the printname function.
     }
 }
