@@ -1,0 +1,27 @@
+public class demo {
+    public static void main(String[] args) {
+
+                                         //Meaning of hash can be, it is a arr of counter which count the main array and stores in it.
+        //array
+        int arr[] ={1,5,3,6,3,8};
+        int n = arr.length;
+        
+
+        //declearing hash of size which is greater then the max value in arr;
+        int hash[] = new int[15];  //here 15 is greater then the max value in arr;
+
+
+        //pre-computation
+        for(int i = 0; i < n; i++){
+            hash[arr[i]] +=1;  //this will scan the arr and counts, how many times a particular value in arr comes.
+        }
+
+        //queires
+        int q[] = {1,3,2,5,12};
+        for(int i = 0; i<q.length; i++){
+            int num = q[i];
+            System.out.println(hash[num]);
+        }
+
+    }
+}
